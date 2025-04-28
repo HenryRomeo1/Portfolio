@@ -118,6 +118,83 @@ Yes, text classification accuracy met expectations for the dataset provided.
 
 ---
 
+## 🧬 SVM Classification
+
+**Problem Statement**:  
+Apply multiple regression and classification algorithms, including Linear Regression, Logarithmic Regression, k-Nearest Neighbors (kNN), Naive Bayes, and SVM classification. Analyze performance across different models and evaluate classification results with precision, recall, and ROC.
+
+**Data**:  
+- Source: Titanic - Machine Learning from Disaster [`Titanic`](https://www.kaggle.com/c/titanic)
+- Description: Multiple CSV files containing numerical features for predicting continuous variables (regression) or categorical labels (classification).
+
+**Data Mining Operations**:  
+- Loaded multiple datasets into Pandas dataframes.
+- Applied data preprocessing: handled missing values, performed min-max normalization.
+- Regression Models:
+  - Conducted Simple Linear Regression and Multivariate Regression.
+  - Conducted Logarithmic Regression for nonlinear relationships.
+- Classification Models:
+  - Applied k-Nearest Neighbors (kNN) Classification.
+  - Applied Gaussian Naive Bayes Classification.
+  - Conducted Support Vector Machine (SVM) Classification using different kernels (linear, polynomial, RBF).
+- Evaluated SVM models by generating classification reports with precision, recall, F1 score, and plotted ROC curves.
+- **Libraries**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`
+
+**Model Outputs**:  
+- Correlation matrices and heatmaps for feature relationships.
+- Regression scatter plots showing fits between features and target variables.
+- Confusion matrices for classification models.
+- ROC curves for SVM models.
+- Precision, Recall, and F1 metrics across classification algorithms.
+
+**Limitations**:  
+- Some datasets were small, limiting generalization and causing possible variance in cross-validation.
+- SVM performance varied significantly depending on the chosen kernel and feature scaling.
+
+**Were you able to effectively solve the problem?**  
+Yes, each regression and classification model was successfully trained, evaluated, and insights were drawn regarding which models performed best under different conditions.
+
+[SVM Classification](https://github.com/HenryRomeo1/SVM-Classification/tree/main)
+
+---
+
+## 🧬 Clustering and Principal Component Analysis (PCA)
+
+**Problem Statement**:  
+Apply unsupervised learning techniques, including PCA for dimensionality reduction and clustering models to identify hidden patterns in the data. Evaluate clustering performance and analyze transformed feature space.
+
+**Data**:  
+- Source: Titanic dataset from kaggle [`Titanic`](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
+- Description: Numerical features appropriate for clustering analysis and dimensionality reduction.
+
+**Data Mining Operations**:  
+- Loaded clustering dataset into Pandas dataframes.
+- Performed data preprocessing: normalized features, handled missing values.
+- Split data into training and testing subsets.
+- Applied Principal Component Analysis (PCA):
+  - Reduced feature dimensionality while preserving variance.
+  - Fit PCA on training data and transformed both training and testing sets.
+- Clustering:
+  - Applied clustering models (e.g., K-Means) on the PCA-transformed data.
+- Evaluated clustering performance using cluster accuracy scores and visualized cluster separations.
+- **Libraries**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`
+
+**Model Outputs**:  
+- PCA transformation plots illustrating variance explained by principal components.
+- Scatter plots of clustered data in reduced 2D space.
+- Accuracy scores measuring clustering performance against known labels (where available).
+
+**Limitations**:  
+- Clustering depends heavily on the choice of number of clusters (k) and the distribution of data.
+- PCA may lead to information loss if too few principal components are selected.
+
+**Were you able to effectively solve the problem?**  
+Yes, dimensionality reduction and clustering provided meaningful visualizations and groupings of the data, showing effective use of unsupervised learning techniques.
+
+[Clustering](https://github.com/HenryRomeo1/Clustering)
+
+---
+
 ## 📈 Linear Regression (Simple and Multivariate)
 
 **Problem Statement**:  
