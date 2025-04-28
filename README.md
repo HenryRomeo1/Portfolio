@@ -223,7 +223,7 @@ Predict a continuous dependent variable based on one or more independent variabl
 **Were you able to effectively solve the problem?**  
 Yes, models achieved reasonable fits, and predictions aligned with expected trends.
 
-[Linear Regression]([HW4_Part1_Henry_Romero.ipynb](https://github.com/HenryRomeo1/Linear-Regression-))
+[Linear Regression](https://github.com/HenryRomeo1/Linear-Regression-)
 
 ---
 
